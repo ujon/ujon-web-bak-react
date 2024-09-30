@@ -11,13 +11,15 @@ export default function LocaleSwitch({currentLocale}: Props) {
     const handleLocale = async (locale: Locale) => await setUserLocale(locale);
 
     return (
-        <div className="border flex items-center w-fit border-color-2">
+        <div
+            className="border flex justify items-center border-color-2 w-80 h-12"
+        >
             {locales.map((locale: Locale, index: number) => {
                 return (
                     <div
                         key={`${locale}-${index}`}
                         onClick={() => handleLocale(locale)}
-                        className={`py-2.5 px-4 ${currentLocale === locale ? 'bg-color-1' : ''}`}
+                        className={`flex-1 flex justify-center items-center h-full ${currentLocale === locale ? 'bg-color-1' : ''}`}
                     >
                         <p className="text-center">{localeLabels[locale]}</p>
                     </div>
