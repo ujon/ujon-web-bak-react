@@ -6,6 +6,7 @@ import {getUserLocale} from "@/services/locale";
 import Footer from "@/components/Footer";
 import {getTheme} from "@/services/theme";
 import Head from "next/head";
+import Header from "@/components/Header";
 
 
 export const metadata: Metadata = {
@@ -29,11 +30,12 @@ export default async function RootLayout({children,}: Readonly<{ children: React
 
     return (
         <html lang={locale} data-theme={theme}>
-        <body>
+        <body className="min-h-screen">
         <NextIntlClientProvider messages={messages}>
+            <Header/>
             {children}
+            <Footer/>
         </NextIntlClientProvider>
-        <Footer/>
         </body>
         </html>
     );

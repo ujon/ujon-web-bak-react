@@ -1,4 +1,3 @@
-import LocaleSwitch from "@/components/LocaleSwitch";
 import {useTranslations} from "next-intl";
 
 export default function Home() {
@@ -7,6 +6,10 @@ export default function Home() {
 
         <div>
             {t("test")}
+            <div className="w-80 h-80 bg-color-2"></div>
+            <div className="w-72 h-72 bg-color-2"></div>
+            <div className="w-80 h-80 bg-color-2"></div>
+            <div className="w-72 h-72 bg-color-2"></div>
         </div>
     );
 }
