@@ -1,4 +1,7 @@
 {
+  "not-found": {
+    "title": "Page Not Found \uD83E\uDD25"
+  },
   "home": {
     "subtitle": "I develop maintainable, well-architected, and documented backend systems.",
     "explore": "Explore More"
