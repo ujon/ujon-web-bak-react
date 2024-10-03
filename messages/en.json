@@ -1,3 +1,6 @@
 {
-  "test": "This is test."
+  "home": {
+    "subtitle": "I develop maintainable, well-architected, and documented backend systems.",
+    "explore": "Explore More"
+  }
 }

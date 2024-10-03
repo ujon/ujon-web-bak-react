@@ -21,3 +21,7 @@ body {
     color: var(--color-text-0);
     background-color: var(--color-bg-0);
 }
+
+hr {
+    color: var(--color-elem-2);
+}

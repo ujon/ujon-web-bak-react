@@ -11,7 +11,7 @@ function Header() {
     ];
 
     return (
-        <header className="sticky h-16 px-8 lg:px-36 lg:h-20">
+        <header className="sticky top-0 px-8 z-10 lg:px-36 header-h bg-color-0 ">
             <div className="flex items-center w-full h-full">
                 <p className="flex-1 text-headline-3">Jongho</p>
                 <nav className="flex gap-8">
