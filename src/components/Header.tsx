@@ -7,7 +7,6 @@ function Header() {
     const pathname = usePathname();
 
     const navigation = [
-        {name: 'About', path: '/about'},
         {name: 'Contact', path: '/contact'},
     ];
 
