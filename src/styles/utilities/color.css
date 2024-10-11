@@ -29,3 +29,11 @@
 .border-color-2 {
     border-color: var(--color-elem-2);
 }
+
+.icon-color-0 {
+    fill: var(--color-text-0);
+}
+
+.icon-color-1 {
+    fill: var(--color-text-1);
+}

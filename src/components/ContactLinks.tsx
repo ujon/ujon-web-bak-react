@@ -16,13 +16,13 @@ function ContactLinks({size = "32", className}: ContactLinksProps) {
     return (
         <div className={`flex gap-6 ${className}`}>
             <Link href={linkedin}>
-                <Linkedin size={size} className="text-color-0"/>
+                <Linkedin size={size} className="icon-color-0"/>
             </Link>
             <Link href={github}>
-                <Github size={size} className="text-color-0"/>
+                <Github size={size} className="icon-color-0"/>
             </Link>
             <Link href={`mailto:${email}`}>
-                <Email size={size} className="text-color-0"/>
+                <Email size={size} className="icon-color-0"/>
             </Link>
         </div>
     )

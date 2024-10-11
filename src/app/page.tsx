@@ -11,7 +11,7 @@ export default function Home() {
                 <hr className="mt-14 mb-12"/>
                 <div className="flex flex-col-reverse justify-between gap-8 lg:flex-row">
                     <div className="flex">
-                        <ArrowDown className="animate-bounce"/>
+                        <ArrowDown className="animate-bounce icon-color-0"/>
                         <p>{t('explore')}</p>
                     </div>
                     <p className="whitespace-pre-line lg:max-w-96">{t('subtitle')}</p>
