@@ -25,3 +25,35 @@ body {
 hr {
     color: var(--color-elem-2);
 }
+
+input {
+    height: 3rem;
+    padding: 0 1rem;
+    background-color: transparent;
+    border-width: 0.0625rem;
+    border-color: var(--color-elem-2);
+    border-radius: 0;
+    outline: none;
+}
+
+input::placeholder {
+    color: var(--color-text-1);
+}
+
+input:focus {
+    border-color: var(--color-elem-1);
+}
+
+button {
+    height: 3rem;
+    padding: 0 1rem;
+    background-color: var(--color-bg-0);
+    border-width: 0.0625rem;
+    border-color: var(--color-elem-2);
+    border-radius: 0;
+}
+
+button:hover {
+    color: var(--color-bg-0);
+    background-color: var(--color-elem-2);
+}

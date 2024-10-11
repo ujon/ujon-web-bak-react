@@ -8,5 +8,9 @@
   },
   "contact": {
     "title": "FEEL FREE TO\nCONTACT ME"
+  },
+  "login": {
+    "login": "Login",
+    "passcode": "Passcode"
   }
 }

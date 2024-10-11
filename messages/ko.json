@@ -8,5 +8,9 @@
   },
   "contact": {
     "title": "연락주세요"
+  },
+  "login": {
+    "login": "로그인",
+    "passcode": "패스코드"
   }
 }
