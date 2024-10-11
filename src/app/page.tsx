@@ -17,13 +17,6 @@ export default function Home() {
                     <p className="whitespace-pre-line lg:max-w-96">{t('subtitle')}</p>
                 </div>
             </section>
-            <section>
-                {t("test")}
-                <div className="w-80 h-80 bg-color-2"></div>
-                <div className="w-72 h-72 bg-color-2"></div>
-                <div className="w-80 h-80 bg-color-2"></div>
-                <div className="w-72 h-72 bg-color-2"></div>
-            </section>
         </main>
     );
 }
