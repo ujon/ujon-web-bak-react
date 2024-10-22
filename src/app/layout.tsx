@@ -1,11 +1,10 @@
-import type {Metadata, Viewport} from "next";
+import type {Metadata} from "next";
 import {NextIntlClientProvider} from "next-intl";
 import {getMessages} from "next-intl/server";
 import "@/styles/index.css"
 import {getUserLocale} from "@/services/locale";
 import Footer from "@/components/Footer";
 import {getTheme} from "@/services/theme";
-import Head from "next/head";
 import Header from "@/components/Header";
 
 
