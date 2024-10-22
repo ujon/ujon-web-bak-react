@@ -19,7 +19,7 @@ export default function LocaleSwitch({currentLocale}: Props) {
                     <div
                         key={`${locale}-${index}`}
                         onClick={() => handleLocale(locale)}
-                        className={`flex-1 flex justify-center items-center h-full ${currentLocale === locale ? 'bg-color-1' : ''}`}
+                        className={`flex-1 flex justify-center items-center h-full cursor-pointer select-none ${currentLocale === locale ? 'bg-color-1' : ''}`}
                     >
                         <p className="text-center">{localeLabels[locale]}</p>
                     </div>

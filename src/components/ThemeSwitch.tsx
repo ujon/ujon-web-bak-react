@@ -17,7 +17,7 @@ export default function ThemeSwitch({currentTheme}: Props) {
                     <div
                         key={`${theme}-${index}`}
                         onClick={() => handleTheme(theme)}
-                        className={`flex-1 flex justify-center items-center h-full ${currentTheme === theme ? 'bg-color-1' : ''}`}
+                        className={`flex-1 flex justify-center items-center h-full cursor-pointer select-none ${currentTheme === theme ? 'bg-color-1' : ''}`}
                     >
                         <p className="text-center">{theme}</p>
                     </div>
